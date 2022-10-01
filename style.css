@@ -1,0 +1,41 @@
+body{
+background:linear-gradient(90deg,#8A2387, #E94057 ,#F27121);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:poppins;
+}
+
+.container{
+baclground:rgba(255,255,255,0.2);
+border-radius:16px;
+box-shadow:0 4px 30px rgba(0,0,0,0.3);
+background-filter:blur(5px);
+border:1px solid rgba(255,255,255,0.2);
+width:20rem;
+height:10rem;
+padding32px;
+}
+input[type="color"]{
+background-color:white;
+border:none;
+border-radius:5px;
+height:40px;
+width:40px;
+transition:0.3s;
+}
+input[type="color"]:hover{
+background-colordeepskyblue;
+}
+input[type="text"]{
+border:none;
+padding:10px;
+border-radius:5px;
+outline:none;
+marigin-right:10px;
+}
+
+
+
+
